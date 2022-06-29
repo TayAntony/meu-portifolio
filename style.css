@@ -3,23 +3,27 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 :root{
     --game-font: 'Press Start 2P', cursive;
     --nav-bar-color: rgb(32, 32, 32);
+    --back-color: rgb(39, 39, 39);
+}
+
+body {
+    background-color: var(--back-color);
 }
 
 #nav{
     width: 6rem;
-    height: 50rem;
+    height: 100vh;
     background-color: var(--nav-bar-color);
 }
 
 #logo{
+    padding: 0.5rem;
     background-color: black;
-    color: white;
-    height: 8rem;
+    width: 100%;
+    height: 9rem;
 }
 
 #logo img{
@@ -34,11 +38,18 @@
 }
 
 #logo p{
-    padding: 0.5rem;
+    color: white;
+    text-align: center;
     font-family: var(--game-font);
 }
 
 #icons {
     display: flex;
     justify-content: space-between;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+
 }
