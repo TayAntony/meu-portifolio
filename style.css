@@ -18,9 +18,11 @@
 
 body {
     background-color: var(--back-color);
+    display: flex;
 }
 
 #home{
+    position: fixed;
     color: white;
     width: 10rem;
     height: 100vh;
@@ -62,27 +64,50 @@ body {
     height: 100vh;
 }
 
+#options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+
+#options > p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#options > p:hover{
+    background-color: var(--back-color);
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
 p{
     text-align: center;
     color: white;
     font-family: var(--quicksand);
 }
 
-#icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-li {
-    list-style: none;
-}
-
 footer{
+    margin-top: 6rem;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
     font-weight: normal;
     width: 11rem;
     font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    font-weight: bold;
 }
 
 #initial-page{
@@ -102,12 +127,21 @@ footer{
 #jspython{
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
+    margin-left: -17rem;
 }
 
 .codigo{
     color: rgba(179, 179, 179, 0.192);
     font-family: var(--handwriting);
     text-align: left;
+}
+
+.body-tag{
+    margin-left: -6rem;
+}
+
+.h1-tag{
+    margin-left: -3rem;
 }
 
 .paragrafos{
@@ -120,4 +154,34 @@ footer{
     font-size: 2rem;
     font-weight: bold;
     color: white;
+}
+
+#initial-page{
+    padding-top: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 10rem;
+}
+
+.body-tag-2{
+    margin-left: -10rem;
+}
+
+.h1-tag-2{
+    margin-left: -7rem;
+}
+
+.p-tag-2{
+    margin-left: -4rem;
+}
+
+#about-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
