@@ -170,6 +170,7 @@ section{
 
 .body-tag-2{
     margin-left: -10rem;
+    padding: 1rem;
 }
 
 .h1-tag-2{
@@ -184,4 +185,5 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 5rem;
 }
