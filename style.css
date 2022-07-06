@@ -223,19 +223,59 @@ section{
 }
 
 .body-tag-2{
-    margin-left: -10rem;
+    margin-left: -8rem;
     padding: 3rem;
 }
 
 .h1-tag-2{
-    margin-left: -7rem;
+    margin-left: -3rem;
 }
 
 .p-tag-2{
-    margin-left: -4rem;
+    margin-left: -1rem;
+    
 }
 
 #foto-my-skills{
     display: flex;
     flex-direction: row;
+    gap: 5rem;
 }
+
+#my-skills{
+    padding-left: 9rem;
+}
+
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#github {
+    padding: 2rem;
+}
+
+#linkedin{
+    padding: 2rem;
+}
+
+#instagram{
+    padding: 2rem;
+}
+
+#seta {
+    padding: 5rem;
+}
+
+#contacte-me h1{
+    margin: 5rem 0rem 5rem 0rem;
+    text-align: center;
+}
+
+#p-obs{
+    padding: 2rem;
+}
+
