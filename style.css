@@ -168,9 +168,63 @@ section{
     gap: 10rem;
 }
 
+#about-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+#me-myself {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+
+}
+
+#family{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+#esquerda, #direita{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#esquerda svg, #direita svg{
+    align-self: center;
+}
+
+#ted{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#love{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+#imagem{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#imagem svg{
+    align-self: center;
+}
+
 .body-tag-2{
     margin-left: -10rem;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .h1-tag-2{
@@ -181,9 +235,7 @@ section{
     margin-left: -4rem;
 }
 
-#about-me{
+#foto-my-skills{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5rem;
+    flex-direction: row;
 }
